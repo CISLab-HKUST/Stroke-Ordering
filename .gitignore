@@ -47,6 +47,7 @@ Thumbs.db
 # Test / temp outputs
 # =========================
 outputs/
+test_files/
 logs/
 tmp/
 temp/
