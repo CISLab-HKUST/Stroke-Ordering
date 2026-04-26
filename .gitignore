@@ -1,0 +1,74 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Test / temp outputs
+# =========================
+outputs/
+logs/
+tmp/
+temp/
+
+# 忽略 stroke_ordering 下所有内容
+stroke_ordering/*
+
+# 但保留这两个目录
+!stroke_ordering/test_files/
+!stroke_ordering/test_files/**
+
+!stroke_ordering/outputs/
+!stroke_ordering/outputs/**
+
+# =========================
+# Large files (optional)
+# =========================
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.zip
+*.tar
+*.gz
