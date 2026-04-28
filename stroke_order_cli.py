@@ -83,22 +83,22 @@ def main() -> None:
         include_metadata=args.include_metadata,
     )
 
-    gif_file = output_dir / f"{stem}.gif"
-    mp4_file = output_dir / f"{stem}.mp4"
-    if not args.no_gif:
-        save_animation(sketch, result, str(gif_file), args.fps, args.frames_per_stroke)
-    if not args.no_mp4:
-        save_animation(sketch, result, str(mp4_file), args.fps, args.frames_per_stroke)
+    # gif_file = output_dir / f"{stem}.gif"
+    # mp4_file = output_dir / f"{stem}.mp4"
+    # if not args.no_gif:
+    #     save_animation(sketch, result, str(gif_file), args.fps, args.frames_per_stroke)
+    # if not args.no_mp4:
+    #     save_animation(sketch, result, str(mp4_file), args.fps, args.frames_per_stroke)
 
     print(f"Loaded {len(sketch.paths)} strokes from {input_svg}")
     print(f"Order: {result['solution']}")
     print(f"Directions: {result['directions']}")
     print(f"Cost: {result['cost']:.6f}")
     print(f"Wrote: {ordered_svg}")
-    if not args.no_gif:
-        print(f"Wrote: {gif_file}")
-    if not args.no_mp4:
-        print(f"Wrote: {mp4_file}")
+    # if not args.no_gif:
+    #     print(f"Wrote: {gif_file}")
+    # if not args.no_mp4:
+    #     print(f"Wrote: {mp4_file}")
 
 
 if __name__ == "__main__":
