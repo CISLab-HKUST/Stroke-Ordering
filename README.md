@@ -27,7 +27,8 @@ requirements.txt        Python 依赖
 建议使用 Python 3.10+。
 
 ```bash
-cd /Users/dingzhe/Downloads/stroke_ordering
+git clone https://github.com/CISLab-HKUST/Stroke-Ordering.git
+cd Stroke-Ordering
 python -m pip install -r requirements.txt
 ```
 
