@@ -10,11 +10,9 @@ compute_cost.py         单笔成本、过渡成本、T-junction 检测
 data_structures.py      Point/Curve/Path/Sketch 与 SVG 读取
 direction.py            笔画方向估计
 tsp_bnb.py              分支限界 TSP/Hamiltonian path 求解
-export.py               ordered SVG/GIF/MP4 导出
+export.py               ordered SVG 导出
 stroke_order_cli.py     命令行入口
 test_stroke_ordering.py 基础测试
-example_triangle.svg    示例输入
-example_house.svg       示例输入
 requirements.txt        Python 依赖
 ```
 
