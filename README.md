@@ -1,10 +1,6 @@
 # Stroke Ordering
 
-这是一个独立的 SVG 笔画排序与动画导出项目，参考 Fu 等人的论文 *Animated Construction of Line Drawings*。程序会读取线稿 SVG，估计笔画绘制顺序和方向，并导出：
-
-- 按笔画顺序重排 `<path>` 的 SVG
-- 按排序结果逐笔绘制的 GIF
-- 按排序结果逐笔绘制的 MP4
+这是一个独立的 SVG 笔画排序与动画导出项目，参考 Fu 等人的论文 *Animated Construction of Line Drawings*。程序会读取线稿 SVG，估计笔画绘制顺序和方向，并导出按笔画顺序重排 `<path>` 的 SVG。
 
 ## 项目文件
 
