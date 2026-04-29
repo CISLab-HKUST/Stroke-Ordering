@@ -26,8 +26,6 @@ cd Stroke-Ordering
 python -m pip install -r requirements.txt
 ```
 
-MP4 导出需要 `imageio-ffmpeg` 或系统中存在 `ffmpeg` 命令。
-
 ## 运行
 
 处理示例 SVG：
