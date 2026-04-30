@@ -34,15 +34,6 @@ python -m pip install -r requirements.txt
 python stroke_order_cli.py example_triangle.svg --output-dir outputs
 ```
 
-
-## 测试
-
-```bash
-python test_stroke_ordering.py
-```
-
-当前基础测试结果：`10 passed, 0 failed`。
-
 ## SVG 支持范围
 
 读取支持 `path`、`line`、`polyline`、`polygon`。`path` 中的直线命令会直接转换为线段；曲线和圆弧命令目前按端点近似，因此复杂贝塞尔曲线会被简化。若需要更精确的曲线动画，建议先在 SVG 编辑器中将曲线展平成 polyline/path line segments。
